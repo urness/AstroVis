@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E81068113B50602004DF560 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E81068013B50602004DF560 /* OpenGL.framework */; };
+		0E81068313B5060E004DF560 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E81068213B5060E004DF560 /* GLUT.framework */; };
+		0E81068513B5061C004DF560 /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E81068413B5061C004DF560 /* GLUI.framework */; };
+		0E81068713B50631004DF560 /* Cg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E81068613B50631004DF560 /* Cg.framework */; };
+		0E81069913B50706004DF560 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E81069513B50706004DF560 /* main.cpp */; };
+		0E81069A13B50706004DF560 /* SimpleSlicerWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E81069613B50706004DF560 /* SimpleSlicerWindow.cpp */; };
+		0E8106A713B50804004DF560 /* ArcBall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E81069C13B50804004DF560 /* ArcBall.cpp */; };
+		0E8106A813B50804004DF560 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E81069E13B50804004DF560 /* Camera.cpp */; };
+		0E8106A913B50804004DF560 /* GlutCgWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E8106A113B50804004DF560 /* GlutCgWindow.cpp */; };
+		0E8106AA13B50804004DF560 /* GlutWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E8106A313B50804004DF560 /* GlutWindow.cpp */; };
+		0E8106AB13B50804004DF560 /* mathutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E8106A513B50804004DF560 /* mathutil.cpp */; };
+		0E8106B513B50829004DF560 /* CMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E8106AD13B50829004DF560 /* CMatrix.cpp */; };
+		0E8106B613B50829004DF560 /* CPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E8106AF13B50829004DF560 /* CPosition.cpp */; };
+		0E8106B713B50829004DF560 /* CQuaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E8106B113B50829004DF560 /* CQuaternion.cpp */; };
+		0E8106B813B50829004DF560 /* CVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E8106B313B50829004DF560 /* CVector.cpp */; };
+		0E8106BE13B508DF004DF560 /* TransferFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E8106BA13B508DF004DF560 /* TransferFunction.cpp */; };
+		0E8106BF13B508DF004DF560 /* Trapez.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E8106BC13B508DF004DF560 /* Trapez.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E81067213B505DF004DF560 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E81067413B505DF004DF560 /* AstroVis2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AstroVis2; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E81067A13B505DF004DF560 /* AstroVis2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AstroVis2.1; sourceTree = "<group>"; };
+		0E81068013B50602004DF560 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		0E81068213B5060E004DF560 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		0E81068413B5061C004DF560 /* GLUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUI.framework; path = Library/Frameworks/GLUI.framework; sourceTree = SDKROOT; };
+		0E81068613B50631004DF560 /* Cg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cg.framework; path = ../../../../Library/Frameworks/Cg.framework; sourceTree = "<group>"; };
+		0E81069213B50706004DF560 /* globaldefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globaldefs.h; sourceTree = "<group>"; };
+		0E81069413B50706004DF560 /* gluiVars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gluiVars.h; sourceTree = "<group>"; };
+		0E81069513B50706004DF560 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0E81069613B50706004DF560 /* SimpleSlicerWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleSlicerWindow.cpp; sourceTree = "<group>"; };
+		0E81069713B50706004DF560 /* SimpleSlicerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSlicerWindow.h; sourceTree = "<group>"; };
+		0E81069C13B50804004DF560 /* ArcBall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArcBall.cpp; sourceTree = "<group>"; };
+		0E81069D13B50804004DF560 /* ArcBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcBall.h; sourceTree = "<group>"; };
+		0E81069E13B50804004DF560 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		0E81069F13B50804004DF560 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		0E8106A013B50804004DF560 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		0E8106A113B50804004DF560 /* GlutCgWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlutCgWindow.cpp; sourceTree = "<group>"; };
+		0E8106A213B50804004DF560 /* GlutCgWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlutCgWindow.h; sourceTree = "<group>"; };
+		0E8106A313B50804004DF560 /* GlutWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlutWindow.cpp; sourceTree = "<group>"; };
+		0E8106A413B50804004DF560 /* GlutWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlutWindow.h; sourceTree = "<group>"; };
+		0E8106A513B50804004DF560 /* mathutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mathutil.cpp; sourceTree = "<group>"; };
+		0E8106A613B50804004DF560 /* mathutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathutil.h; sourceTree = "<group>"; };
+		0E8106AD13B50829004DF560 /* CMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMatrix.cpp; sourceTree = "<group>"; };
+		0E8106AE13B50829004DF560 /* CMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMatrix.h; sourceTree = "<group>"; };
+		0E8106AF13B50829004DF560 /* CPosition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPosition.cpp; sourceTree = "<group>"; };
+		0E8106B013B50829004DF560 /* CPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPosition.h; sourceTree = "<group>"; };
+		0E8106B113B50829004DF560 /* CQuaternion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CQuaternion.cpp; sourceTree = "<group>"; };
+		0E8106B213B50829004DF560 /* CQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQuaternion.h; sourceTree = "<group>"; };
+		0E8106B313B50829004DF560 /* CVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVector.cpp; sourceTree = "<group>"; };
+		0E8106B413B50829004DF560 /* CVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVector.h; sourceTree = "<group>"; };
+		0E8106BA13B508DF004DF560 /* TransferFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransferFunction.cpp; sourceTree = "<group>"; };
+		0E8106BB13B508DF004DF560 /* TransferFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferFunction.h; sourceTree = "<group>"; };
+		0E8106BC13B508DF004DF560 /* Trapez.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Trapez.cpp; sourceTree = "<group>"; };
+		0E8106BD13B508DF004DF560 /* Trapez.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trapez.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E81067113B505DF004DF560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E81068713B50631004DF560 /* Cg.framework in Frameworks */,
+				0E81068513B5061C004DF560 /* GLUI.framework in Frameworks */,
+				0E81068313B5060E004DF560 /* GLUT.framework in Frameworks */,
+				0E81068113B50602004DF560 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E81066913B505DF004DF560 = {
+			isa = PBXGroup;
+			children = (
+				0E81068613B50631004DF560 /* Cg.framework */,
+				0E81068413B5061C004DF560 /* GLUI.framework */,
+				0E81068213B5060E004DF560 /* GLUT.framework */,
+				0E81068013B50602004DF560 /* OpenGL.framework */,
+				0E81067713B505DF004DF560 /* AstroVis2 */,
+				0E81067513B505DF004DF560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E81067513B505DF004DF560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E81067413B505DF004DF560 /* AstroVis2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E81067713B505DF004DF560 /* AstroVis2 */ = {
+			isa = PBXGroup;
+			children = (
+				0E8106B913B50830004DF560 /* transfunc */,
+				0E8106AC13B5080B004DF560 /* mathutil */,
+				0E81069B13B5070F004DF560 /* core */,
+				0E81068813B50650004DF560 /* app */,
+				0E81067A13B505DF004DF560 /* AstroVis2.1 */,
+			);
+			path = AstroVis2;
+			sourceTree = "<group>";
+		};
+		0E81068813B50650004DF560 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				0E81069213B50706004DF560 /* globaldefs.h */,
+				0E81069413B50706004DF560 /* gluiVars.h */,
+				0E81069513B50706004DF560 /* main.cpp */,
+				0E81069613B50706004DF560 /* SimpleSlicerWindow.cpp */,
+				0E81069713B50706004DF560 /* SimpleSlicerWindow.h */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		0E81069B13B5070F004DF560 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				0E81069C13B50804004DF560 /* ArcBall.cpp */,
+				0E81069D13B50804004DF560 /* ArcBall.h */,
+				0E81069E13B50804004DF560 /* Camera.cpp */,
+				0E81069F13B50804004DF560 /* Camera.h */,
+				0E8106A013B50804004DF560 /* global.h */,
+				0E8106A113B50804004DF560 /* GlutCgWindow.cpp */,
+				0E8106A213B50804004DF560 /* GlutCgWindow.h */,
+				0E8106A313B50804004DF560 /* GlutWindow.cpp */,
+				0E8106A413B50804004DF560 /* GlutWindow.h */,
+				0E8106A513B50804004DF560 /* mathutil.cpp */,
+				0E8106A613B50804004DF560 /* mathutil.h */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		0E8106AC13B5080B004DF560 /* mathutil */ = {
+			isa = PBXGroup;
+			children = (
+				0E8106AD13B50829004DF560 /* CMatrix.cpp */,
+				0E8106AE13B50829004DF560 /* CMatrix.h */,
+				0E8106AF13B50829004DF560 /* CPosition.cpp */,
+				0E8106B013B50829004DF560 /* CPosition.h */,
+				0E8106B113B50829004DF560 /* CQuaternion.cpp */,
+				0E8106B213B50829004DF560 /* CQuaternion.h */,
+				0E8106B313B50829004DF560 /* CVector.cpp */,
+				0E8106B413B50829004DF560 /* CVector.h */,
+			);
+			name = mathutil;
+			sourceTree = "<group>";
+		};
+		0E8106B913B50830004DF560 /* transfunc */ = {
+			isa = PBXGroup;
+			children = (
+				0E8106BA13B508DF004DF560 /* TransferFunction.cpp */,
+				0E8106BB13B508DF004DF560 /* TransferFunction.h */,
+				0E8106BC13B508DF004DF560 /* Trapez.cpp */,
+				0E8106BD13B508DF004DF560 /* Trapez.h */,
+			);
+			name = transfunc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E81067313B505DF004DF560 /* AstroVis2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E81067D13B505DF004DF560 /* Build configuration list for PBXNativeTarget "AstroVis2" */;
+			buildPhases = (
+				0E81067013B505DF004DF560 /* Sources */,
+				0E81067113B505DF004DF560 /* Frameworks */,
+				0E81067213B505DF004DF560 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroVis2;
+			productName = AstroVis2;
+			productReference = 0E81067413B505DF004DF560 /* AstroVis2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E81066B13B505DF004DF560 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0E81066E13B505DF004DF560 /* Build configuration list for PBXProject "AstroVis2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E81066913B505DF004DF560;
+			productRefGroup = 0E81067513B505DF004DF560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E81067313B505DF004DF560 /* AstroVis2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E81067013B505DF004DF560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E81069913B50706004DF560 /* main.cpp in Sources */,
+				0E81069A13B50706004DF560 /* SimpleSlicerWindow.cpp in Sources */,
+				0E8106A713B50804004DF560 /* ArcBall.cpp in Sources */,
+				0E8106A813B50804004DF560 /* Camera.cpp in Sources */,
+				0E8106A913B50804004DF560 /* GlutCgWindow.cpp in Sources */,
+				0E8106AA13B50804004DF560 /* GlutWindow.cpp in Sources */,
+				0E8106AB13B50804004DF560 /* mathutil.cpp in Sources */,
+				0E8106B513B50829004DF560 /* CMatrix.cpp in Sources */,
+				0E8106B613B50829004DF560 /* CPosition.cpp in Sources */,
+				0E8106B713B50829004DF560 /* CQuaternion.cpp in Sources */,
+				0E8106B813B50829004DF560 /* CVector.cpp in Sources */,
+				0E8106BE13B508DF004DF560 /* TransferFunction.cpp in Sources */,
+				0E8106BF13B508DF004DF560 /* Trapez.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E81067B13B505DF004DF560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0E81067C13B505DF004DF560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0E81067E13B505DF004DF560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E81067F13B505DF004DF560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E81066E13B505DF004DF560 /* Build configuration list for PBXProject "AstroVis2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E81067B13B505DF004DF560 /* Debug */,
+				0E81067C13B505DF004DF560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E81067D13B505DF004DF560 /* Build configuration list for PBXNativeTarget "AstroVis2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E81067E13B505DF004DF560 /* Debug */,
+				0E81067F13B505DF004DF560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E81066B13B505DF004DF560 /* Project object */;
+}
